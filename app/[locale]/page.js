@@ -12,11 +12,13 @@ export default async function Home() {
     <main>
       <Cursor/>
       <Header/>
-      <Hero/>
-      <Projects/>
-      <About/>
-      <Services/>
-      <Contact/>
+      <div className="mx-auto w-full max-w-400">
+        <Hero/>
+        <Projects/>
+        <About/>
+        <Services/>
+        <Contact/>
+      </div>
     </main>
   );
 }

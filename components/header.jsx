@@ -73,9 +73,13 @@ function Header(){
       </button>
 
       <div className={`
-        flex justify-between items-center
-        transition-[height,padding-left] duration-400 
-        ${menu ? "h-screen px-15 sm:px-30 md:px-60 lg:px-80 xl:px-90 2xl:px-110" : "h-18 px-10 lg:px-30"}
+        mx-auto flex w-full max-w-400
+        items-center justify-between
+        transition-[height,padding] duration-400
+        ${menu
+          ? "h-screen px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24"
+          : "h-18 px-4 sm:px-6 md:px-10 lg:px-12 xl:px-16"
+        }
       `}>
 
         <button onClick={() => scrollToSection("home")}><img src={"/logo.svg"} alt="logo" className={` transition-all duration-500 ${menu ? " h-30 sm:h-40 md:h-50" : "h-14"}`} /></button>

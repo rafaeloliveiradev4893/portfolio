@@ -1,23 +1,27 @@
 {
   "Home": {
     "title": "Olá, meu nome é ",
-    "description": "Ajudo você a conseguir mais clientes com um site",
-    "btn1": "Meus projetos",
+    "description": "Crio apps e sites que enchem a sua agenda",
+    "btn1": "Ver projetos",
     "btn2": "Sobre mim",
-    "btn3": "Contato"
+    "btn3": "Pedir orçamento"
   },
   "About": {
     "title": "Sobre mim",
-    "description1": "Sou desenvolvedor e designer — cuido de tudo, desde a identidade visual até o produto final funcionando.",
-    "description2": "Crio landing pages, e-commerces, portfólios e sistemas web sob medida: rápidos, responsivos e pensados para gerar resultados reais para o seu negócio."
+    "description1": "Sou desenvolvedor fullstack e web designer. Cuido de tudo, do layout ao sistema funcionando, para você não precisar contratar vários profissionais.",
+    "description2": "Meu foco é ajudar negócios a organizar a agenda e atrair mais clientes, com sistemas sob medida e landing pages rápidas, responsivas e pensadas para converter."
   },
   "Services": {
     "title": "Serviços",
-    "service1": "Desenvolvimento Fullstack",
-    "description1": "Criação de aplicações web utilizando as mais recentes tecnologias e melhores práticas de desenvolvimento.",
-    "service2": "Web Design",
-    "description2": "Design de interfaces web modernas e responsivas, focadas na experiência do usuário e na estética.",
-    "btn": "Entrar em contato"
+    "service1": "App de agendamento sob demanda",
+    "description1": "Sistema de agendamento online feito sob medida para o seu negócio. Seus clientes marcam horário sozinhos e você controla tudo em um painel simples, sem depender do WhatsApp.",
+    "service2": "Landing pages que convertem",
+    "description2": "Página rápida, responsiva e direta ao ponto, pensada para transformar visitantes em contatos e agendamentos.",
+    "service3": "Sistemas de gestão",
+    "description3": "Cadastro de clientes, histórico, financeiro e relatórios em um só lugar, no lugar de planilhas e anotações soltas.",
+    "service4": "Manutenção e suporte",
+    "description4": "Plano mensal com atualizações, correções e suporte para o seu sistema continuar funcionando sem dor de cabeça.",
+    "btn": "Pedir orçamento"
   },
   "Contact": {
     "title": "Contato",
