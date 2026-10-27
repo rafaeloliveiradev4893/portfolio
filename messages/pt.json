@@ -26,6 +26,10 @@
   "Contact": {
     "title": "Contato",
     "description": "Tem um projeto em mente? Vamos conversar. Estou disponível para projetos freelance e aberto a novas colaborações.",
+    "email": "E-mail",
+    "emailAction": "Enviar e-mail",
+    "whatsapp": "WhatsApp",
+    "whatsappAction": "Conversar agora",
     "social": "Redes Sociais"
   },
   "Header": {

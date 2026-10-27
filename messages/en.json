@@ -1,27 +1,35 @@
 {
   "Home": {
     "title": "Hello, my name is ",
-    "description": "I help you get more clients with a website",
-    "btn1": "My Projects",
+    "description": "I create apps and websites that keep your schedule full",
+    "btn1": "View Projects",
     "btn2": "About Me",
-    "btn3": "Contact"
+    "btn3": "Request a Quote"
   },
   "About": {
     "title": "About Me",
-    "description1": "I'm a developer and designer — I take care of everything, from visual identity to the final, functioning product.",
-    "description2": "I create custom landing pages, e-commerce sites, portfolios, and web systems: fast, responsive, and designed to generate real results for your business."
+    "description1": "I'm a full-stack developer and web designer. I take care of everything, from the layout to the fully functioning system, so you don't have to hire multiple professionals.",
+    "description2": "My focus is helping businesses manage their schedules and attract more clients with custom-built systems and fast, responsive landing pages designed to convert."
   },
   "Services": {
     "title": "Services",
-    "service1": "Fullstack Development",
-    "description1": "Creation of web applications using the latest technologies and best development practices.",
-    "service2": "Web Design",
-    "description2": "Design of modern and responsive web interfaces, focused on user experience and aesthetics.",
-    "btn": "Get in Touch"
+    "service1": "Custom Appointment Booking App",
+    "description1": "A custom online booking system built for your business. Your clients can book appointments on their own, and you can manage everything from a simple dashboard without relying on WhatsApp.",
+    "service2": "Landing Pages That Convert",
+    "description2": "A fast, responsive, straight-to-the-point page designed to turn visitors into leads and bookings.",
+    "service3": "Management Systems",
+    "description3": "Customer records, history, finances, and reports all in one place, replacing spreadsheets and scattered notes.",
+    "service4": "Maintenance and Support",
+    "description4": "A monthly plan with updates, fixes, and support to keep your system running smoothly.",
+    "btn": "Request a Quote"
   },
   "Contact": {
     "title": "Contact",
-    "description": "Have a project in mind? Let's talk about it. I'm available for freelance projects and open to new collaborations.",
+    "description": "Have a project in mind? Let's talk. I'm available for freelance projects and open to new collaborations.",
+    "email": "Email",
+    "emailAction": "Send an email",
+    "whatsapp": "WhatsApp",
+    "whatsappAction": "Chat now",
     "social": "Social Media"
   },
   "Header": {
@@ -31,6 +39,8 @@
     "services": "Services",
     "contact": "Contact",
     "language": "Language",
+    "plans": "Plans",
+    "allPlans": "All Plans",
     "portfolio": "Portfolio",
     "myWork": "My Work"
   },
@@ -38,31 +48,31 @@
     "title": "Projects",
     "btn": "View All Projects",
     "cardbtn1": "See More",
-    "cardbtn2": "Access Project",
+    "cardbtn2": "View Project",
     "featured": ["DrCarlos", "MundoQuantico"]
   },
   "Project": {
     "MundoQuantico": {
       "projectTitle": "Mundo Quântico",
-      "projectDesc": "Mundo Quântico is a web platform that showcases illustrated stories and educational projects designed for classroom use, providing an interactive and accessible way to explore concepts in physics and quantum computing.",
+      "projectDesc": "Mundo Quântico is a web page featuring illustrated stories and educational projects designed for classroom use, offering an interactive and accessible approach to teaching physics and quantum computing concepts.",
       "projectName": "MundoQuantico",
       "projectIMG": "/Mundo-quantico.webp",
       "projectLink": "https://mundoquantico.netlify.app",
-      "projectDesc1": "This project was developed with the goal of presenting physics and quantum computing projects to elementary school students. The idea was inspired by the book 'Physics and Quantum Computing Projects for Elementary Education', developed by the UESB-QuIIN team. The platform features stories with illustrative images and educational projects designed for classroom application, offering an interactive and accessible approach to teaching physics and quantum computing concepts.",
-      "projectDesc2": "The project was developed using Node.js with the Next.js framework. The application includes a main page with navigation links to other sections of the site. A dynamic routing system was implemented using the App Router, following the experimento/[name] pattern in folders to generate dynamic pages based on URL parameters. The data used on the site is centralized in a JavaScript constant, serving as a content source for reusable pages.",
-      "projectDesc3": "The project includes features such as responsiveness, dynamic routing, and lazy loading, allowing the user to have a smooth browsing experience. Each part was built with a focus on speed and efficiency.",
-      "projectDesc4": "With this project, it was possible to improve skills in Next.js, as well as reinforce the importance of componentization. The final result meets the proposed objectives and can be expanded in the future."
+      "projectDesc1": "This project was developed to introduce physics and quantum computing projects to elementary school students. The idea came from the book 'Physics and Quantum Computing Projects for Elementary Education', created by the UESB-QuIIN team. The platform features illustrated stories and educational projects designed for classroom use, offering an interactive and accessible approach to teaching physics and quantum computing concepts.",
+      "projectDesc2": "The project was developed with Node.js using the Next.js framework. The application has a main page with navigation links to other sections of the site. A dynamic routing system was implemented using the App Router, with the experimento/[name] folder pattern to generate pages based on URL parameters. The site's data is centralized in a JavaScript constant, serving as a content source for reusable pages.",
+      "projectDesc3": "The project includes features such as responsive design, dynamic routes, and lazy loading, providing users with a smooth browsing experience. Every part was built with speed and efficiency in mind.",
+      "projectDesc4": "This project helped me improve my Next.js skills and reinforced the importance of componentization. The final result meets the project's goals and can be expanded in the future."
     },
     "DrCarlos": {
       "projectTitle": "Dr. Carlos",
-      "projectDesc": "This landing page was developed with the goal of presenting legal services. Its structure focuses on converting visitors into potential clients, highlighting key services, and facilitating user contact.",
+      "projectDesc": "This landing page was developed to present legal services. Its structure focuses on converting visitors into potential clients, highlighting key services, and making it easy for users to get in touch.",
       "projectName": "DrCarlos",
       "projectIMG": "/DrCarlos.webp",
       "projectLink": "https://advogado-landing-page-taupe.vercel.app",
-      "projectDesc1": "This project was developed as a landing page for lawyers, aiming to present legal services in a clear, professional, and accessible way. The goal is to build trust with users and make initial contact easier.",
-      "projectDesc2": "The development was carried out using HTML, CSS and JavaScript, with a focus on performance, organization, and responsiveness. The page structure was designed to guide users intuitively through the presented information.",
-      "projectDesc3": "The page includes features such as responsive design, well-organized sections, and call-to-action (CTA) elements, allowing users to navigate easily and get in touch quickly.",
-      "projectDesc4": "With this project, it was possible to improve front-end development skills and landing page structuring, as well as reinforce the importance of conversion-focused design."
+      "projectDesc1": "This project was developed as a landing page for lawyers, with the goal of presenting legal services in a clear, professional, and accessible way. It aims to build trust with users and make that first contact easier.",
+      "projectDesc2": "The site was built with HTML, CSS, and JavaScript, focusing on performance, organization, and responsiveness. The page structure was designed to guide users intuitively through the information.",
+      "projectDesc3": "The page includes features such as responsive design, well-organized sections, and calls to action (CTAs), making it easy for users to navigate and get in touch quickly.",
+      "projectDesc4": "This project helped me improve my front-end development and landing page design skills, while reinforcing the importance of conversion-focused design."
     }
   }
 }

@@ -4,23 +4,40 @@ import { useTranslations } from "next-intl";
 function Contact(){ 
   const t = useTranslations("Contact");
   return(
-    <section id="contact" className="responsive-container h-120 md:h-[90vh] xl:h-[70vh] flex flex-col md:flex-row items-start md:items-baseline justify-center  border-t-4 border-(--color-secondary)">
-      <div className="flex flex-col gap-2 pb-6 md:pb-0">
-        <h1 className="title">{t("title")}</h1>
-        <p className="md:pb-2 text text-(--color-text)">{t("description")}</p>
-        <a className="text text-(--color-assistant) font-bold hover:border-zinc-700 hover:text-zinc-700 w-min border-text" href="mailto:rafaelsilva039133@gmail.com" target="_blank" rel="noopener noreferrer"> rafaelsilva039133@gmail.com</a>
-        <a className="text text-(--color-assistant) font-bold hover:border-zinc-700 hover:text-zinc-700 w-min text-nowrap border-text" href="https://wa.me/557582986745" target="_blank" rel="noopener noreferrer"> (75) 8298-6745 </a>
-      </div>
-      <div className="md:min-w-2/5 flex flex-col items-end">
-        <div className="flex flex-col gap-1 md:gap-3">
-          <h2 className="subtitle pb-2">{t("social")}</h2>
-          <a className="text text-(--color-secondary) flex gap-3 items-center hover:text-amber-950" href="https://www.instagram.com/rafael.s_dev/" target="_blank" rel="noopener noreferrer"> <Arrow/> Instagram </a>
-          <a className="text text-(--color-secondary) flex gap-3 items-center hover:text-amber-950" href="https://x.com/Rafael_S137" target="_blank " rel="noopener noreferrer"> <Arrow/> X (Twitter) </a>
-          <a className="text text-(--color-secondary) flex gap-3 items-center hover:text-amber-950" href="https://www.linkedin.com/in/rafael-silva-7072283a4/" target="_blank" rel="noopener noreferrer"> <Arrow/> Linkedin </a>
-          <a className="text text-(--color-secondary) flex gap-3 items-center hover:text-amber-950" href="https://wa.me/557582986745" target="_blank" rel="noopener noreferrer"> <Arrow/>WhatsApp</a>
+    <section id="contact" className="responsive-container border-t-4 border-(--color-secondary) py-20">
+      <div className="grid gap-12 md:grid-cols-2 md:gap-16">
+        <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-2">
+            <h1 className="title">{t("title")}</h1>
+            <p className="text text-(--color-text)">{t("description")}</p>
+          </div>
+          <div className="flex flex-col gap-4">
+            <a className="group flex flex-col gap-2 rounded-xl border border-(--color-secondary)/20 bg-white/70 p-5 transition-colors hover:border-(--color-secondary) hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--color-secondary)" href="mailto:rafaelsilva039133@gmail.com">
+              <span className="text-sm font-semibold uppercase tracking-wider text-(--color-assistant)">{t("email")}</span>
+              <span className="flex flex-wrap items-center justify-between gap-2 text text-(--color-secondary)">
+                <span className="break-all font-semibold">rafaelsilva039133@gmail.com</span>
+                <span className="flex items-center gap-2 font-semibold">{t("emailAction")} <Arrow /></span>
+              </span>
+            </a>
+            <a className="group flex flex-col gap-2 rounded-xl border border-(--color-secondary)/20 bg-white/70 p-5 transition-colors hover:border-(--color-secondary) hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--color-secondary)" href="https://wa.me/557582986745" target="_blank" rel="noopener noreferrer">
+              <span className="text-sm font-semibold uppercase tracking-wider text-(--color-assistant)">{t("whatsapp")}</span>
+              <span className="flex flex-wrap items-center justify-between gap-2 text text-(--color-secondary)">
+                <span className="font-semibold">(75) 8298-6745</span>
+                <span className="flex items-center gap-2 font-semibold">{t("whatsappAction")} <Arrow /></span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col gap-5">
+          <h2 className="subtitle">{t("social")}</h2>
+          <div className="grid gap-3 sm:grid-cols-2">
+            <a className="flex items-center justify-between gap-3 rounded-xl border border-(--color-secondary)/20 p-4 text text-(--color-secondary) transition-colors hover:border-(--color-secondary) hover:bg-white/70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--color-secondary)" href="https://www.instagram.com/rafaeloliveiradev/" target="_blank" rel="noopener noreferrer">Instagram <Arrow /></a>
+            <a className="flex items-center justify-between gap-3 rounded-xl border border-(--color-secondary)/20 p-4 text text-(--color-secondary) transition-colors hover:border-(--color-secondary) hover:bg-white/70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--color-secondary)" href="https://x.com/rafaoliveiradev" target="_blank" rel="noopener noreferrer">X (Twitter) <Arrow /></a>
+            <a className="flex items-center justify-between gap-3 rounded-xl border border-(--color-secondary)/20 p-4 text text-(--color-secondary) transition-colors hover:border-(--color-secondary) hover:bg-white/70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--color-secondary)" href="https://www.linkedin.com/in/rafaeloliveira-dev/" target="_blank" rel="noopener noreferrer">LinkedIn <Arrow /></a>
+            <a className="flex items-center justify-between gap-3 rounded-xl border border-(--color-secondary)/20 p-4 text text-(--color-secondary) transition-colors hover:border-(--color-secondary) hover:bg-white/70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--color-secondary)" href="https://www.threads.com/@rafaeloliveiradev" target="_blank" rel="noopener noreferrer">Threads <Arrow /></a>
+          </div>
         </div>
       </div>
-      
     </section>
   )
 }
