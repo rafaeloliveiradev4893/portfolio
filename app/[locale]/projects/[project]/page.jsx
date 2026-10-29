@@ -9,6 +9,8 @@ export default async function ProjectPage({ params }) {
   const { project } = await params;
 
   const t = await getTranslations(`Project.${project}`);
+  const tProject = await getTranslations("Project");
+  const repositories = t.raw("projectRepos");
 
   return (
     <main>
@@ -30,11 +32,30 @@ export default async function ProjectPage({ params }) {
           </svg>
         </Link>
         <h1 className="title text-center">{t("projectTitle")}</h1>
-        <Image src={t("projectIMG")} width={700} height={400} alt="Project Image" className="mx-auto rounded-2xl" />
+        <Image src={t("projectIMG")} width={700} height={400} alt={t("projectTitle")} className="mx-auto rounded-2xl" />
         <p className="text">{t("projectDesc1")}</p>
         <p className="text">{t("projectDesc2")}</p>
         <p className="text">{t("projectDesc3")}</p>
         <p className="text">{t("projectDesc4")}</p>
+        {repositories.length > 0 && (
+          <div className="pt-4">
+            <h2 className="subtitle">{tProject("repositoriesTitle")}</h2>
+            <ul className="flex flex-wrap gap-4">
+              {repositories.map((repository) => (
+                <li key={repository.url}>
+                  <a
+                    href={repository.url}
+                    className="text-base sm:text-lg font-Inter text-(--color-secondary) font-semibold hover:text-amber-950 transition-colors duration-600"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {repository.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </section>
       <Contact/>
     </main>

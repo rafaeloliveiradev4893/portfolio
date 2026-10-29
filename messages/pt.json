@@ -49,15 +49,17 @@
     "btn": "Ver Todos os Projetos",
     "cardbtn1": "Ver Mais",
     "cardbtn2": "Acessar Projeto",
-    "featured": ["DrCarlos", "MundoQuantico"]
+    "featured": ["DrCarlos", "MundoQuantico", "NewLevel", "GOMP", "LuminaEstetica"]
   },
   "Project": {
+    "repositoriesTitle": "Repositórios",
     "MundoQuantico": {
       "projectTitle": "Mundo Quântico",
       "projectDesc": "Mundo Quântico é uma página web que apresenta histórias com imagens ilustrativas e projetos didáticos voltados para aplicação em sala de aula, oferecendo uma abordagem interativa e acessível ao ensino de conceitos da física e computação quântica.",
       "projectName": "MundoQuantico",
       "projectIMG": "/Mundo-quantico.webp",
       "projectLink": "https://mundoquantico.netlify.app",
+      "projectRepos": [],
       "projectDesc1": "Este projeto foi desenvolvido com o objetivo de apresentar projetos de física e computação quântica para alunos do ensino fundamental. A ideia surgiu a partir do livro 'Projetos de Física e Computação Quântica para o Ensino Fundamental', desenvolvido pela equipe UESB-QuIIN. A plataforma apresenta histórias com imagens ilustrativas e projetos didáticos voltados para aplicação em sala de aula, oferecendo uma abordagem interativa e acessível ao ensino de conceitos de física e computação quântica.",
       "projectDesc2": "O projeto foi desenvolvido com Node.js utilizando o framework Next.js. A aplicação possui uma página principal com links de navegação para outras seções do site. Foi implementado um sistema de rotas dinâmicas usando o App Router, com o padrão experimento/[name] em pastas para geração de páginas dinâmicas com base em parâmetros de URL. Os dados utilizados no site estão centralizados em uma constante JavaScript, funcionando como fonte de conteúdo para páginas reutilizáveis.",
       "projectDesc3": "O projeto conta com funcionalidades como responsividade, rotas dinâmicas e lazy loading, permitindo que o usuário tenha uma navegação fluida. Cada parte foi construída pensando em rapidez e eficiência.",
@@ -69,10 +71,66 @@
       "projectName": "DrCarlos",
       "projectIMG": "/DrCarlos.webp",
       "projectLink": "https://advogado-landing-page-taupe.vercel.app",
+      "projectRepos": [],
       "projectDesc1": "Este projeto foi desenvolvido como uma landing page para advogados, com o objetivo de apresentar serviços jurídicos de forma clara, profissional e acessível. A proposta é transmitir confiança ao usuário e facilitar o primeiro contato.",
       "projectDesc2": "O desenvolvimento foi realizado utilizando HTML, CSS e JavaScript, com foco em performance, organização e responsividade. A estrutura da página foi planejada para guiar o usuário de forma intuitiva pelas informações apresentadas.",
       "projectDesc3": "A página conta com funcionalidades como design responsivo, seções organizadas e chamadas para ação (CTA), permitindo que o usuário navegue com facilidade e entre em contato rapidamente.",
       "projectDesc4": "Com esse projeto, foi possível aprimorar habilidades em desenvolvimento front-end e estruturação de landing pages, além de reforçar a importância de um design focado em conversão."
+    },
+    "NewLevel": {
+      "projectTitle": "New Level",
+      "projectDesc": "Uma plataforma gamificada de gerenciamento de tarefas e eventos. Concluir atividades rende XP e permite que o usuário avance de nível.",
+      "projectName": "NewLevel",
+      "projectIMG": "/nlevel.webp",
+      "projectLink": "https://new-level.vercel.app",
+      "projectRepos": [
+        {
+          "name": "Frontend Angular",
+          "url": "https://github.com/rafaeloliveiradev4893/new-level-Angular"
+        },
+        {
+          "name": "API Spring Boot",
+          "url": "https://github.com/rafaeloliveiradev4893/new-level-spring"
+        }
+      ],
+      "projectDesc1": "O New Level transforma tarefas e eventos em uma experiência gamificada: ao concluir atividades, o usuário ganha pontos de experiência (XP) e sobe de nível conforme a dificuldade.",
+      "projectDesc2": "A aplicação é composta por um frontend em Angular e uma API backend em Java com Spring Boot, responsável pelas regras de negócio e pela persistência dos dados em PostgreSQL.",
+      "projectDesc3": "A autenticação utiliza Auth0. A API valida tokens JWT e oferece recursos para organizar tarefas e eventos, conectando a rotina do usuário ao sistema de progressão.",
+      "projectDesc4": "O projeto integra uma aplicação web e uma API própria para incentivar a organização pessoal com metas, atividades e evolução por níveis."
+    },
+    "GOMP": {
+      "projectTitle": "GOMP",
+      "projectDesc": "Aplicação web para gerar orçamentos voltados a malharias, reunindo em um só lugar o processo de elaboração de propostas.",
+      "projectName": "GOMP",
+      "projectIMG": "/gomp.webp",
+      "projectLink": "https://gomp-delta.vercel.app",
+      "projectRepos": [
+        {
+          "name": "Repositório no GitHub",
+          "url": "https://github.com/rafaeloliveiradev4893/GOMP"
+        }
+      ],
+      "projectDesc1": "O GOMP é uma aplicação para gerar orçamentos voltados ao segmento de malharias.",
+      "projectDesc2": "A ferramenta concentra a criação de propostas em uma interface web, facilitando o acesso ao sistema pelo navegador.",
+      "projectDesc3": "O projeto está disponível online e seu código-fonte pode ser consultado no repositório do GitHub.",
+      "projectDesc4": "A proposta é oferecer às malharias um fluxo mais prático para preparar e apresentar seus orçamentos."
+    },
+    "LuminaEstetica": {
+      "projectTitle": "Lumina Estética",
+      "projectDesc": "Landing page de uma clínica de estética fictícia, criada para apresentar seus serviços e incentivar agendamentos de avaliação pelo WhatsApp.",
+      "projectName": "LuminaEstetica",
+      "projectIMG": "/LP.webp",
+      "projectLink": "https://landing-page-lumina-estetica.vercel.app",
+      "projectRepos": [
+        {
+          "name": "Repositório no GitHub",
+          "url": "https://github.com/rafaeloliveiradev4893/Landing-Page-Lumina-Estetica"
+        }
+      ],
+      "projectDesc1": "A Lumina Estética é uma landing page de portfólio para uma clínica fictícia. O site apresenta os serviços e a experiência da clínica, com foco em iniciar conversas e agendamentos de avaliação pelo WhatsApp.",
+      "projectDesc2": "A página reúne apresentação da clínica, procedimentos, diferenciais, depoimentos ilustrativos, perguntas frequentes e chamadas para contato.",
+      "projectDesc3": "O projeto foi desenvolvido com Next.js, React, TypeScript e CSS Modules. Inclui navegação responsiva, mensagens personalizadas para contato pelo WhatsApp, metadados para compartilhamento e suporte a movimento reduzido.",
+      "projectDesc4": "Este é um projeto demonstrativo: telefone, endereço e demais informações de contato são placeholders e não representam uma clínica real."
     }
   }
 }

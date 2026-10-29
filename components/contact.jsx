@@ -12,10 +12,10 @@ function Contact(){
             <p className="text text-(--color-text)">{t("description")}</p>
           </div>
           <div className="flex flex-col gap-4">
-            <a className="group flex flex-col gap-2 rounded-xl border border-(--color-secondary)/20 bg-white/70 p-5 transition-colors hover:border-(--color-secondary) hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--color-secondary)" href="mailto:rafaelsilva039133@gmail.com">
+            <a className="group flex flex-col gap-2 rounded-xl border border-(--color-secondary)/20 bg-white/70 p-5 transition-colors hover:border-(--color-secondary) hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--color-secondary)" href="mailto:rafaeloliveiradesenvolvedor@gmail.com">
               <span className="text-sm font-semibold uppercase tracking-wider text-(--color-assistant)">{t("email")}</span>
               <span className="flex flex-wrap items-center justify-between gap-2 text text-(--color-secondary)">
-                <span className="break-all font-semibold">rafaelsilva039133@gmail.com</span>
+                <span className="break-all font-semibold">rafaeloliveiradesenvolvedor@gmail.com</span>
                 <span className="flex items-center gap-2 font-semibold">{t("emailAction")} <Arrow /></span>
               </span>
             </a>

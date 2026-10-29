@@ -49,15 +49,17 @@
     "btn": "View All Projects",
     "cardbtn1": "See More",
     "cardbtn2": "View Project",
-    "featured": ["DrCarlos", "MundoQuantico"]
+    "featured": ["DrCarlos", "MundoQuantico", "NewLevel", "GOMP", "LuminaEstetica"]
   },
   "Project": {
+    "repositoriesTitle": "Repositories",
     "MundoQuantico": {
       "projectTitle": "Mundo Quântico",
       "projectDesc": "Mundo Quântico is a web page featuring illustrated stories and educational projects designed for classroom use, offering an interactive and accessible approach to teaching physics and quantum computing concepts.",
       "projectName": "MundoQuantico",
       "projectIMG": "/Mundo-quantico.webp",
       "projectLink": "https://mundoquantico.netlify.app",
+      "projectRepos": [],
       "projectDesc1": "This project was developed to introduce physics and quantum computing projects to elementary school students. The idea came from the book 'Physics and Quantum Computing Projects for Elementary Education', created by the UESB-QuIIN team. The platform features illustrated stories and educational projects designed for classroom use, offering an interactive and accessible approach to teaching physics and quantum computing concepts.",
       "projectDesc2": "The project was developed with Node.js using the Next.js framework. The application has a main page with navigation links to other sections of the site. A dynamic routing system was implemented using the App Router, with the experimento/[name] folder pattern to generate pages based on URL parameters. The site's data is centralized in a JavaScript constant, serving as a content source for reusable pages.",
       "projectDesc3": "The project includes features such as responsive design, dynamic routes, and lazy loading, providing users with a smooth browsing experience. Every part was built with speed and efficiency in mind.",
@@ -69,10 +71,66 @@
       "projectName": "DrCarlos",
       "projectIMG": "/DrCarlos.webp",
       "projectLink": "https://advogado-landing-page-taupe.vercel.app",
+      "projectRepos": [],
       "projectDesc1": "This project was developed as a landing page for lawyers, with the goal of presenting legal services in a clear, professional, and accessible way. It aims to build trust with users and make that first contact easier.",
       "projectDesc2": "The site was built with HTML, CSS, and JavaScript, focusing on performance, organization, and responsiveness. The page structure was designed to guide users intuitively through the information.",
       "projectDesc3": "The page includes features such as responsive design, well-organized sections, and calls to action (CTAs), making it easy for users to navigate and get in touch quickly.",
       "projectDesc4": "This project helped me improve my front-end development and landing page design skills, while reinforcing the importance of conversion-focused design."
+    },
+    "NewLevel": {
+      "projectTitle": "New Level",
+      "projectDesc": "A gamified task and event management platform. Completing activities earns XP and helps users level up.",
+      "projectName": "NewLevel",
+      "projectIMG": "/nlevel.webp",
+      "projectLink": "https://new-level.vercel.app",
+      "projectRepos": [
+        {
+          "name": "Angular frontend",
+          "url": "https://github.com/rafaeloliveiradev4893/new-level-Angular"
+        },
+        {
+          "name": "Spring Boot API",
+          "url": "https://github.com/rafaeloliveiradev4893/new-level-spring"
+        }
+      ],
+      "projectDesc1": "New Level turns tasks and events into a gamified experience: completing activities earns experience points (XP) and helps users level up according to their difficulty.",
+      "projectDesc2": "The application consists of an Angular frontend and a Java/Spring Boot backend API, which handles business rules and stores data in PostgreSQL.",
+      "projectDesc3": "Authentication uses Auth0. The API validates JWTs and provides features for organizing tasks and events, connecting users' routines to the progression system.",
+      "projectDesc4": "The project brings together a web application and a custom API to encourage personal organization through goals, activities, and level progression."
+    },
+    "GOMP": {
+      "projectTitle": "GOMP",
+      "projectDesc": "A web application for generating quotes for knitting mills, bringing the proposal creation process together in one place.",
+      "projectName": "GOMP",
+      "projectIMG": "/gomp.webp",
+      "projectLink": "https://gomp-delta.vercel.app",
+      "projectRepos": [
+        {
+          "name": "GitHub repository",
+          "url": "https://github.com/rafaeloliveiradev4893/GOMP"
+        }
+      ],
+      "projectDesc1": "GOMP, a quote generator for knitting mills, is an application designed to support the creation of quotes for this industry.",
+      "projectDesc2": "The tool brings proposal creation into a web interface, making the system accessible through a browser.",
+      "projectDesc3": "The project is available online, and its source code can be found in the GitHub repository.",
+      "projectDesc4": "Its goal is to give knitting mills a more practical workflow for preparing and presenting quotes."
+    },
+    "LuminaEstetica": {
+      "projectTitle": "Lumina Estética",
+      "projectDesc": "A landing page for a fictional beauty clinic, designed to present its services and encourage evaluation appointments through WhatsApp.",
+      "projectName": "LuminaEstetica",
+      "projectIMG": "/LP.webp",
+      "projectLink": "https://landing-page-lumina-estetica.vercel.app",
+      "projectRepos": [
+        {
+          "name": "GitHub repository",
+          "url": "https://github.com/rafaeloliveiradev4893/Landing-Page-Lumina-Estetica"
+        }
+      ],
+      "projectDesc1": "Lumina Estética is a portfolio landing page for a fictional beauty clinic. It presents the clinic's services and experience, with the goal of starting conversations and evaluation bookings through WhatsApp.",
+      "projectDesc2": "The page brings together an introduction to the clinic, procedures, differentiators, illustrative testimonials, frequently asked questions, and contact calls to action.",
+      "projectDesc3": "The project was built with Next.js, React, TypeScript, and CSS Modules. It includes responsive navigation, custom WhatsApp contact messages, sharing metadata, and reduced-motion support.",
+      "projectDesc4": "This is a demo project: the phone number, address, and other contact details are placeholders and do not represent a real clinic."
     }
   }
 }
